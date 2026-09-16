@@ -1,14 +1,303 @@
-╭──────────────────────────────────────────╮
-│ ● ● ●                         euan.sh    │
-├──────────────────────────────────────────┤
-│                                          │
-│ $ whoami                                 │
-│ Euan Robb                                │
-│                                          │
-│ $ what-i-do                              │
-│ Website × Content × SEO × AI             │
-│                                          │
-│ $ currently                              │
-│ Building things for the web_             │
-│                                          │
-╰──────────────────────────────────────────╯
+<svg
+  width="800"
+  height="470"
+  viewBox="0 0 800 470"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <style>
+    .text {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+      font-size: 16px;
+      fill: #FFFFF8;
+    }
+
+    .muted {
+      fill: #B8A8B9;
+    }
+
+    .lime {
+      fill: #E4FF00;
+    }
+
+    .cursor {
+      animation: blink 1s step-end infinite;
+    }
+
+    .rider {
+      animation: ride 10s linear infinite;
+    }
+
+    .horse-body {
+      animation: gallop 0.35s ease-in-out infinite alternate;
+    }
+
+    .legs-a {
+      animation: legsA 0.35s step-end infinite;
+    }
+
+    .legs-b {
+      animation: legsB 0.35s step-end infinite;
+    }
+
+    .flag {
+      animation: flagWave 0.4s ease-in-out infinite alternate;
+      transform-origin: 25px 405px;
+    }
+
+    .flag-text {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+      font-size: 8px;
+      font-weight: bold;
+      fill: #200521;
+    }
+
+    @keyframes blink {
+      50% {
+        opacity: 0;
+      }
+    }
+
+    @keyframes ride {
+      from {
+        transform: translateX(-150px);
+      }
+
+      to {
+        transform: translateX(900px);
+      }
+    }
+
+    @keyframes gallop {
+      from {
+        transform: translateY(0);
+      }
+
+      to {
+        transform: translateY(-3px);
+      }
+    }
+
+    @keyframes legsA {
+      50% {
+        opacity: 0;
+      }
+    }
+
+    @keyframes legsB {
+      0%,
+      49% {
+        opacity: 0;
+      }
+
+      50%,
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @keyframes flagWave {
+      from {
+        transform: skewY(0deg);
+      }
+
+      to {
+        transform: skewY(-3deg);
+      }
+    }
+  </style>
+
+  <!-- Terminal background -->
+  <rect
+    x="1"
+    y="1"
+    width="798"
+    height="468"
+    rx="16"
+    fill="#200521"
+    stroke="#703C72"
+    stroke-width="2"
+  />
+
+  <!-- Top bar -->
+  <line
+    x1="0"
+    y1="55"
+    x2="800"
+    y2="55"
+    stroke="#703C72"
+    stroke-width="2"
+  />
+
+  <!-- Window buttons -->
+  <circle cx="28" cy="28" r="7" fill="#E242E2" />
+  <circle cx="52" cy="28" r="7" fill="#E4FF00" />
+  <circle cx="76" cy="28" r="7" fill="#360838" />
+
+  <!-- Window title -->
+  <text x="690" y="34" class="text muted">
+    euan.sh
+  </text>
+
+  <!-- WHOAMI -->
+  <text x="35" y="100" class="text lime">$ whoami</text>
+
+  <text x="35" y="130" class="text">
+    Euan Robb
+  </text>
+
+  <!-- WHAT I DO -->
+  <text x="35" y="180" class="text lime">$ what-i-do</text>
+
+  <text x="35" y="210" class="text">
+    Website × Content × SEO × AI
+  </text>
+
+  <!-- CURRENTLY -->
+  <text x="35" y="260" class="text lime">$ currently</text>
+
+  <text x="35" y="290" class="text">
+    Building things for the web @ Equals
+  </text>
+
+  <!-- STATUS -->
+  <text x="35" y="340" class="text lime">$ status</text>
+
+  <text x="35" y="370" class="text">
+    Hero copy ............
+  </text>
+
+  <text x="245" y="370" class="text lime">
+    CHANGING
+  </text>
+
+  <!-- Blinking cursor -->
+  <rect
+    x="35"
+    y="395"
+    width="10"
+    height="18"
+    fill="#E4FF00"
+    class="cursor"
+  />
+
+  <!-- Cowboy riding horse -->
+  <g class="rider" fill="#E4FF00">
+
+    <g class="horse-body">
+
+      <!-- SEO FLAG -->
+
+      <!-- Flag pole -->
+      <rect
+        x="25"
+        y="370"
+        width="3"
+        height="63"
+        fill="#E4FF00"
+      />
+
+      <!-- Animated flag -->
+      <g class="flag">
+
+        <!-- Flag background -->
+        <path
+          d="M28 372
+             H67
+             L61 382
+             L67 392
+             H28
+             Z"
+          fill="#E242E2"
+        />
+
+        <!-- SEO text -->
+        <text
+          x="36"
+          y="385"
+          class="flag-text"
+        >
+          SEO
+        </text>
+
+      </g>
+
+      <!-- HORSE -->
+
+      <!-- Tail -->
+      <rect x="0" y="438" width="14" height="4"/>
+      <rect x="-7" y="442" width="14" height="4"/>
+      <rect x="-12" y="446" width="12" height="4"/>
+
+      <!-- Body -->
+      <rect x="12" y="432" width="54" height="14"/>
+      <rect x="20" y="446" width="40" height="6"/>
+
+      <!-- Neck -->
+      <rect x="58" y="421" width="12" height="20"/>
+      <rect x="64" y="416" width="10" height="20"/>
+
+      <!-- Head -->
+      <rect x="68" y="414" width="25" height="10"/>
+      <rect x="82" y="422" width="17" height="6"/>
+
+      <!-- Ear -->
+      <rect x="70" y="408" width="5" height="8"/>
+      <rect x="78" y="410" width="5" height="7"/>
+
+      <!-- Eye -->
+      <rect
+        x="83"
+        y="417"
+        width="3"
+        height="3"
+        fill="#200521"
+      />
+
+      <!-- COWBOY -->
+
+      <!-- Body -->
+      <rect x="38" y="405" width="10" height="24"/>
+
+      <!-- Head -->
+      <rect x="37" y="393" width="12" height="12"/>
+
+      <!-- Hat brim -->
+      <rect x="29" y="390" width="27" height="4"/>
+
+      <!-- Hat -->
+      <rect x="36" y="383" width="14" height="8"/>
+      <rect x="40" y="380" width="7" height="5"/>
+
+      <!-- Arm / reins -->
+      <rect x="47" y="409" width="13" height="4"/>
+      <rect x="57" y="412" width="14" height="3"/>
+
+      <!-- Back arm -->
+      <rect x="31" y="408" width="8" height="4"/>
+
+      <!-- Cowboy leg -->
+      <rect x="40" y="425" width="6" height="13"/>
+      <rect x="45" y="434" width="12" height="5"/>
+
+      <!-- Galloping legs: frame A -->
+      <g class="legs-a">
+        <rect x="20" y="450" width="6" height="13"/>
+        <rect x="13" y="459" width="14" height="4"/>
+
+        <rect x="52" y="450" width="6" height="13"/>
+        <rect x="55" y="459" width="15" height="4"/>
+      </g>
+
+      <!-- Galloping legs: frame B -->
+      <g class="legs-b">
+        <rect x="27" y="450" width="6" height="10"/>
+        <rect x="27" y="458" width="15" height="4"/>
+
+        <rect x="47" y="450" width="6" height="10"/>
+        <rect x="38" y="458" width="15" height="4"/>
+      </g>
+
+    </g>
+  </g>
+
+</svg>
