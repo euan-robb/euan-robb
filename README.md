@@ -1,3 +1,5 @@
+<img src="./terminal.svg" width="100%">
+
 # Hi, I'm Euan 👋
 
 Website × Content × SEO × AI
