@@ -253,18 +253,16 @@
 />
 
 
-<!-- ==================================================
-     ANIMATION SCENE — 60PX LOWER
-     ================================================== -->
+<!-- ANIMATION SCENE -->
 
 <g transform="translate(0 60)">
 
 
 <!-- DESERT -->
 
-<!-- LEFT CACTUS -->
-
 <g fill="#703C72">
+
+  <!-- LEFT CACTUS -->
   <rect x="102" y="423" width="4" height="37"/>
   <rect x="106" y="417" width="4" height="43"/>
   <rect x="98" y="426" width="4" height="17"/>
@@ -275,12 +273,8 @@
   <rect x="104" y="419" width="2" height="2"/>
   <rect x="96" y="424" width="2" height="2"/>
   <rect x="116" y="420" width="2" height="2"/>
-</g>
 
-
-<!-- RIGHT CACTUS -->
-
-<g fill="#703C72">
+  <!-- RIGHT CACTUS -->
   <rect x="693" y="420" width="4" height="40"/>
   <rect x="697" y="416" width="4" height="44"/>
   <rect x="689" y="430" width="4" height="16"/>
@@ -291,12 +285,8 @@
   <rect x="695" y="418" width="2" height="2"/>
   <rect x="687" y="424" width="2" height="2"/>
   <rect x="709" y="423" width="2" height="2"/>
-</g>
 
-
-<!-- DESERT SCRUB -->
-
-<g fill="#703C72">
+  <!-- SCRUB -->
   <rect x="62" y="452" width="2" height="8"/>
   <rect x="58" y="448" width="2" height="7"/>
   <rect x="66" y="447" width="2" height="8"/>
@@ -304,12 +294,8 @@
   <rect x="745" y="453" width="2" height="7"/>
   <rect x="741" y="449" width="2" height="7"/>
   <rect x="749" y="448" width="2" height="8"/>
-</g>
 
-
-<!-- ROCKS -->
-
-<g fill="#703C72">
+  <!-- ROCKS -->
   <rect x="165" y="454" width="16" height="6"/>
   <rect x="169" y="450" width="10" height="4"/>
   <rect x="173" y="448" width="4" height="2"/>
@@ -317,27 +303,21 @@
   <rect x="602" y="455" width="18" height="5"/>
   <rect x="606" y="451" width="10" height="4"/>
   <rect x="610" y="449" width="4" height="2"/>
-</g>
 
-
-<!-- GROUND TEXTURE -->
-
-<g fill="#703C72">
+  <!-- GROUND -->
   <rect x="50" y="459" width="4" height="2"/>
   <rect x="74" y="456" width="6" height="2"/>
   <rect x="86" y="459" width="3" height="2"/>
-
   <rect x="126" y="458" width="5" height="2"/>
   <rect x="139" y="455" width="3" height="2"/>
   <rect x="151" y="459" width="7" height="2"/>
-
   <rect x="625" y="459" width="5" height="2"/>
   <rect x="638" y="456" width="3" height="2"/>
   <rect x="650" y="459" width="7" height="2"/>
-
   <rect x="720" y="459" width="4" height="2"/>
   <rect x="731" y="455" width="6" height="2"/>
   <rect x="759" y="459" width="5" height="2"/>
+
 </g>
 
 
@@ -417,14 +397,7 @@ Z
 
 <rect x="16" y="429" width="5" height="7"/>
 <rect x="21" y="426" width="5" height="3"/>
-
-<rect
-  x="31"
-  y="439"
-  width="17"
-  height="3"
-  fill="#200521"
-/>
+<rect x="31" y="439" width="17" height="3" fill="#200521"/>
 
 
 <!-- HORSE NECK -->
@@ -477,39 +450,18 @@ Z
 
 <rect x="87" y="417" width="9" height="4"/>
 <rect x="92" y="419" width="6" height="3"/>
-
 <rect x="70" y="405" width="3" height="7"/>
 <rect x="76" y="406" width="3" height="6"/>
-
-<rect
-  x="82"
-  y="414"
-  width="2"
-  height="2"
-  fill="#200521"
-/>
+<rect x="82" y="414" width="2" height="2" fill="#200521"/>
 
 
 <!-- SADDLE -->
 
-<rect
-  x="34"
-  y="423"
-  width="18"
-  height="4"
-  fill="#E4FF00"
-/>
-
-<rect
-  x="39"
-  y="427"
-  width="12"
-  height="3"
-  fill="#E4FF00"
-/>
+<rect x="34" y="423" width="18" height="4" fill="#E4FF00"/>
+<rect x="39" y="427" width="12" height="3" fill="#E4FF00"/>
 
 
-<!-- BANDIT -->
+<!-- BANDIT RIDER -->
 
 <path d="
 M38 398
@@ -528,33 +480,12 @@ Z
 "/>
 
 <rect x="38" y="387" width="10" height="11"/>
-
-<rect
-  x="45"
-  y="390"
-  width="5"
-  height="6"
-  fill="#E868E8"
-/>
-
-<rect
-  x="38"
-  y="391"
-  width="12"
-  height="4"
-  fill="#200521"
-/>
-
-<rect
-  x="46"
-  y="392"
-  width="2"
-  height="1"
-  fill="#E4FF00"
-/>
+<rect x="45" y="390" width="5" height="6" fill="#E868E8"/>
+<rect x="38" y="391" width="12" height="4" fill="#200521"/>
+<rect x="46" y="392" width="2" height="1" fill="#E4FF00"/>
 
 
-<!-- BANDIT HAT -->
+<!-- HAT -->
 
 <rect x="31" y="384" width="25" height="3"/>
 <rect x="37" y="378" width="13" height="6"/>
@@ -621,13 +552,7 @@ Z
   <rect x="25" y="386" width="4" height="3"/>
 </g>
 
-<rect
-  x="22"
-  y="392"
-  width="10"
-  height="2"
-  fill="#200521"
-/>
+<rect x="22" y="392" width="10" height="2" fill="#200521"/>
 
 <text
   x="23"
@@ -636,133 +561,246 @@ Z
   font-size="9"
   font-weight="bold"
   fill="#200521"
->
-$
-</text>
+>$</text>
 
 
-<!-- BANDIT GALLOP 1 -->
+<!-- BANDIT BACKGROUND LEGS -->
+
+<g fill="#703C72">
+
+  <g class="b-leg-1">
+
+    <path d="
+    M27 440
+    H31 V446
+    H35 V451
+    H40 V455
+    H45 V457
+    H40 V459
+    H35 V456
+    H31 V452
+    H28 V447
+    Z
+    "/>
+
+    <path d="
+    M49 440
+    H53 V446
+    H50 V451
+    H46 V456
+    H41 V458
+    H37 V456
+    H42 V453
+    H45 V448
+    H48
+    Z
+    "/>
+
+  </g>
+
+  <g class="b-leg-2">
+
+    <path d="
+    M27 440
+    H31 V447
+    H29 V452
+    H25 V457
+    H20 V459
+    H16 V457
+    H21 V454
+    H24 V449
+    Z
+    "/>
+
+    <path d="
+    M49 440
+    H53 V446
+    H58 V450
+    H63 V454
+    H68 V456
+    H63 V458
+    H58 V455
+    H53 V451
+    H50 V447
+    Z
+    "/>
+
+  </g>
+
+  <g class="b-leg-3">
+
+    <path d="
+    M27 440
+    H31 V446
+    H35 V450
+    H40 V453
+    H45 V456
+    H40 V458
+    H35 V455
+    H31 V451
+    H28
+    Z
+    "/>
+
+    <path d="
+    M49 440
+    H53 V447
+    H51 V453
+    H47 V457
+    H42 V459
+    H38 V457
+    H43 V454
+    H46 V449
+    Z
+    "/>
+
+  </g>
+
+  <g class="b-leg-4">
+
+    <path d="
+    M27 440
+    H31 V447
+    H29 V453
+    H25 V457
+    H20 V459
+    H16 V457
+    H21 V454
+    H24 V449
+    Z
+    "/>
+
+    <path d="
+    M49 440
+    H53 V446
+    H58 V451
+    H64 V454
+    H69 V456
+    H64 V458
+    H59 V456
+    H54 V452
+    H50 V448
+    Z
+    "/>
+
+  </g>
+
+</g>
+
+
+<!-- BANDIT FOREGROUND LEGS -->
 
 <g class="b-leg-1">
 
-<path d="
-M21 440
-H26 V446
-H23 V451
-H18 V456
-H13 V458
-H10 V456
-H15 V453
-H18 V448
-H20 Z
-"/>
+  <path d="
+  M21 440
+  H26 V446
+  H23 V451
+  H18 V456
+  H13 V458
+  H10 V456
+  H15 V453
+  H18 V448
+  H20 Z
+  "/>
 
-<path d="
-M54 440
-H59 V445
-H63 V450
-H68 V455
-H74 V457
-H68 V458
-H64 V455
-H59 V451
-H55 V447
-Z
-"/>
+  <path d="
+  M54 440
+  H59 V445
+  H63 V450
+  H68 V455
+  H74 V457
+  H68 V458
+  H64 V455
+  H59 V451
+  H55 V447
+  Z
+  "/>
 
 </g>
-
-
-<!-- BANDIT GALLOP 2 -->
 
 <g class="b-leg-2">
 
-<path d="
-M22 440
-H27 V446
-H32 V451
-H38 V454
-H43 V456
-H37 V458
-H32 V455
-H27 V451
-H23 Z
-"/>
+  <path d="
+  M22 440
+  H27 V446
+  H32 V451
+  H38 V454
+  H43 V456
+  H37 V458
+  H32 V455
+  H27 V451
+  H23 Z
+  "/>
 
-<path d="
-M54 440
-H59 V447
-H57 V452
-H53 V457
-H48 V459
-H44 V457
-H49 V454
-H52 V449
-Z
-"/>
+  <path d="
+  M54 440
+  H59 V447
+  H57 V452
+  H53 V457
+  H48 V459
+  H44 V457
+  H49 V454
+  H52 V449
+  Z
+  "/>
 
 </g>
-
-
-<!-- BANDIT GALLOP 3 -->
 
 <g class="b-leg-3">
 
-<path d="
-M22 440
-H27 V447
-H25 V453
-H21 V458
-H16 V459
-H13 V457
-H18 V454
-H20 V449
-Z
-"/>
+  <path d="
+  M22 440
+  H27 V447
+  H25 V453
+  H21 V458
+  H16 V459
+  H13 V457
+  H18 V454
+  H20 V449
+  Z
+  "/>
 
-<path d="
-M54 440
-H59 V446
-H64 V451
-H70 V454
-H76 V455
-H72 V458
-H66 V456
-H61 V452
-H56 V448
-Z
-"/>
+  <path d="
+  M54 440
+  H59 V446
+  H64 V451
+  H70 V454
+  H76 V455
+  H72 V458
+  H66 V456
+  H61 V452
+  H56 V448
+  Z
+  "/>
 
 </g>
 
-
-<!-- BANDIT GALLOP 4 -->
-
 <g class="b-leg-4">
 
-<path d="
-M22 440
-H27 V446
-H31 V450
-H36 V453
-H41 V456
-H36 V458
-H31 V455
-H26 V451
-H23 Z
-"/>
+  <path d="
+  M22 440
+  H27 V446
+  H31 V450
+  H36 V453
+  H41 V456
+  H36 V458
+  H31 V455
+  H26 V451
+  H23 Z
+  "/>
 
-<path d="
-M54 440
-H59 V447
-H57 V453
-H54 V457
-H49 V459
-H45 V457
-H50 V454
-H52 V449
-Z
-"/>
+  <path d="
+  M54 440
+  H59 V447
+  H57 V453
+  H54 V457
+  H49 V459
+  H45 V457
+  H50 V454
+  H52 V449
+  Z
+  "/>
 
 </g>
 
@@ -778,9 +816,7 @@ Z
 <g class="cowboy-sprite" fill="#E4FF00">
 
 
-<!-- ==================================================
-     IMPERFECT SIX-FRAME LASSO
-     ================================================== -->
+<!-- LASSO -->
 
 <g
   fill="none"
@@ -790,221 +826,203 @@ Z
   stroke-linejoin="miter"
 >
 
-
-<!-- LASSO 1 -->
-
 <g class="lasso-1">
 
-<path d="
-M40 401
-L37 396
-L34 391
-L32 385
-L30 379
-L29 373
-"/>
+  <path d="
+  M40 401
+  L37 396
+  L34 391
+  L32 385
+  L30 379
+  L29 373
+  "/>
 
-<path d="
-M29 373
-L23 372
-L18 369
-L14 365
-L13 360
-L15 356
-L20 353
-L27 351
-L35 350
-L43 351
-L50 353
-L54 356
-L56 360
-L55 365
-L51 369
-L45 371
-L37 373
-L29 373
-"/>
+  <path d="
+  M29 373
+  L23 372
+  L18 369
+  L14 365
+  L13 360
+  L15 356
+  L20 353
+  L27 351
+  L35 350
+  L43 351
+  L50 353
+  L54 356
+  L56 360
+  L55 365
+  L51 369
+  L45 371
+  L37 373
+  L29 373
+  "/>
 
 </g>
-
-
-<!-- LASSO 2 -->
 
 <g class="lasso-2">
 
-<path d="
-M40 401
-L38 395
-L36 389
-L35 382
-L36 375
-L38 369
-"/>
+  <path d="
+  M40 401
+  L38 395
+  L36 389
+  L35 382
+  L36 375
+  L38 369
+  "/>
 
-<path d="
-M38 369
-L32 367
-L28 363
-L25 358
-L25 352
-L28 347
-L33 343
-L40 341
-L47 341
-L54 344
-L58 348
-L60 353
-L59 359
-L56 364
-L51 367
-L45 369
-L38 369
-"/>
+  <path d="
+  M38 369
+  L32 367
+  L28 363
+  L25 358
+  L25 352
+  L28 347
+  L33 343
+  L40 341
+  L47 341
+  L54 344
+  L58 348
+  L60 353
+  L59 359
+  L56 364
+  L51 367
+  L45 369
+  L38 369
+  "/>
 
 </g>
-
-
-<!-- LASSO 3 -->
 
 <g class="lasso-3">
 
-<path d="
-M40 401
-L42 395
-L45 389
-L49 383
-L53 378
-L58 374
-"/>
+  <path d="
+  M40 401
+  L42 395
+  L45 389
+  L49 383
+  L53 378
+  L58 374
+  "/>
 
-<path d="
-M58 374
-L54 370
-L53 365
-L54 359
-L57 354
-L62 350
-L68 348
-L75 349
-L81 351
-L86 355
-L88 360
-L87 366
-L84 371
-L79 374
-L72 376
-L65 376
-L58 374
-"/>
+  <path d="
+  M58 374
+  L54 370
+  L53 365
+  L54 359
+  L57 354
+  L62 350
+  L68 348
+  L75 349
+  L81 351
+  L86 355
+  L88 360
+  L87 366
+  L84 371
+  L79 374
+  L72 376
+  L65 376
+  L58 374
+  "/>
 
 </g>
-
-
-<!-- LASSO 4 -->
 
 <g class="lasso-4">
 
-<path d="
-M40 401
-L44 396
-L49 391
-L54 386
-L60 382
-L66 379
-"/>
+  <path d="
+  M40 401
+  L44 396
+  L49 391
+  L54 386
+  L60 382
+  L66 379
+  "/>
 
-<path d="
-M66 379
-L63 375
-L63 370
-L65 365
-L69 361
-L75 359
-L82 359
-L89 361
-L94 365
-L97 370
-L97 375
-L94 380
-L89 383
-L82 385
-L75 384
-L69 382
-L66 379
-"/>
+  <path d="
+  M66 379
+  L63 375
+  L63 370
+  L65 365
+  L69 361
+  L75 359
+  L82 359
+  L89 361
+  L94 365
+  L97 370
+  L97 375
+  L94 380
+  L89 383
+  L82 385
+  L75 384
+  L69 382
+  L66 379
+  "/>
 
 </g>
-
-
-<!-- LASSO 5 -->
 
 <g class="lasso-5">
 
-<path d="
-M40 401
-L43 395
-L46 389
-L48 383
-L48 377
-L46 371
-"/>
+  <path d="
+  M40 401
+  L43 395
+  L46 389
+  L48 383
+  L48 377
+  L46 371
+  "/>
 
-<path d="
-M46 371
-L41 369
-L36 366
-L33 362
-L32 357
-L34 352
-L38 348
-L44 346
-L51 345
-L58 347
-L63 350
-L66 355
-L66 360
-L63 365
-L58 369
-L52 371
-L46 371
-"/>
+  <path d="
+  M46 371
+  L41 369
+  L36 366
+  L33 362
+  L32 357
+  L34 352
+  L38 348
+  L44 346
+  L51 345
+  L58 347
+  L63 350
+  L66 355
+  L66 360
+  L63 365
+  L58 369
+  L52 371
+  L46 371
+  "/>
 
 </g>
 
-
-<!-- LASSO 6 -->
-
 <g class="lasso-6">
 
-<path d="
-M40 401
-L37 396
-L33 391
-L30 386
-L28 380
-L27 375
-"/>
+  <path d="
+  M40 401
+  L37 396
+  L33 391
+  L30 386
+  L28 380
+  L27 375
+  "/>
 
-<path d="
-M27 375
-L21 374
-L16 371
-L12 367
-L11 362
-L13 357
-L18 354
-L25 352
-L33 352
-L40 353
-L47 355
-L52 359
-L53 364
-L51 368
-L47 372
-L41 374
-L34 375
-L27 375
-"/>
+  <path d="
+  M27 375
+  L21 374
+  L16 371
+  L12 367
+  L11 362
+  L13 357
+  L18 354
+  L25 352
+  L33 352
+  L40 353
+  L47 355
+  L52 359
+  L53 364
+  L51 368
+  L47 372
+  L41 374
+  L34 375
+  L27 375
+  "/>
 
 </g>
 
@@ -1041,7 +1059,7 @@ L27 375
 </g>
 
 
-<!-- COWBOY HORSE -->
+<!-- HORSE TAIL -->
 
 <path d="
 M10 433
@@ -1054,6 +1072,9 @@ H0 V439
 H7 V437
 H12 Z
 "/>
+
+
+<!-- HORSE BODY -->
 
 <path d="
 M12 426
@@ -1079,17 +1100,10 @@ Z
 
 <rect x="16" y="429" width="5" height="7"/>
 <rect x="21" y="426" width="5" height="3"/>
-
-<rect
-  x="31"
-  y="439"
-  width="17"
-  height="3"
-  fill="#200521"
-/>
+<rect x="31" y="439" width="17" height="3" fill="#200521"/>
 
 
-<!-- NECK -->
+<!-- HORSE NECK -->
 
 <path d="
 M57 428
@@ -1119,7 +1133,7 @@ H61 Z
 "/>
 
 
-<!-- HEAD -->
+<!-- HORSE HEAD -->
 
 <path d="
 M68 410
@@ -1139,55 +1153,18 @@ Z
 
 <rect x="87" y="417" width="9" height="4"/>
 <rect x="92" y="419" width="6" height="3"/>
-
 <rect x="70" y="405" width="3" height="7"/>
 <rect x="76" y="406" width="3" height="6"/>
 
-<rect
-  x="82"
-  y="414"
-  width="2"
-  height="2"
-  fill="#200521"
-/>
-
-
-<!-- BRIDLE -->
-
-<rect
-  x="86"
-  y="415"
-  width="2"
-  height="7"
-  fill="#200521"
-/>
-
-<rect
-  x="84"
-  y="419"
-  width="9"
-  height="2"
-  fill="#200521"
-/>
+<rect x="82" y="414" width="2" height="2" fill="#200521"/>
+<rect x="86" y="415" width="2" height="7" fill="#200521"/>
+<rect x="84" y="419" width="9" height="2" fill="#200521"/>
 
 
 <!-- SADDLE -->
 
-<rect
-  x="34"
-  y="423"
-  width="18"
-  height="4"
-  fill="#E242E2"
-/>
-
-<rect
-  x="39"
-  y="427"
-  width="12"
-  height="3"
-  fill="#E242E2"
-/>
+<rect x="34" y="423" width="18" height="4" fill="#E242E2"/>
+<rect x="39" y="427" width="12" height="3" fill="#E242E2"/>
 
 
 <!-- COWBOY -->
@@ -1210,17 +1187,9 @@ Z
 
 <rect x="40" y="394" width="6" height="5"/>
 <rect x="38" y="385" width="10" height="10"/>
-
 <rect x="46" y="388" width="5" height="5"/>
 <rect x="49" y="390" width="4" height="2"/>
-
-<rect
-  x="47"
-  y="388"
-  width="2"
-  height="2"
-  fill="#200521"
-/>
+<rect x="47" y="388" width="2" height="2" fill="#200521"/>
 
 
 <!-- HAT -->
@@ -1230,7 +1199,7 @@ Z
 <rect x="39" y="374" width="9" height="2"/>
 
 
-<!-- LASSO ARM -->
+<!-- ARMS -->
 
 <path d="
 M38 402
@@ -1247,9 +1216,6 @@ V397
 H40
 Z
 "/>
-
-
-<!-- REINS ARM -->
 
 <path d="
 M47 403
@@ -1271,19 +1237,14 @@ Z
 <!-- REINS -->
 
 <path
-  d="
-  M62 410
-  L70 413
-  L79 415
-  L86 417
-  "
+  d="M62 410 L70 413 L79 415 L86 417"
   fill="none"
   stroke="#E4FF00"
   stroke-width="1.5"
 />
 
 
-<!-- COWBOY LEG -->
+<!-- RIDER LEG -->
 
 <path d="
 M40 418
@@ -1304,128 +1265,243 @@ Z
 <rect x="50" y="432" width="9" height="3"/>
 
 
-<!-- COWBOY GALLOP 1 -->
+<!-- COWBOY BACKGROUND LEGS -->
+
+<g fill="#703C72">
+
+  <g class="c-leg-1">
+
+    <path d="
+    M27 440
+    H31 V446
+    H35 V451
+    H40 V455
+    H45 V457
+    H40 V459
+    H35 V456
+    H31 V452
+    H28 V447
+    Z
+    "/>
+
+    <path d="
+    M49 440
+    H53 V446
+    H50 V451
+    H46 V456
+    H41 V458
+    H37 V456
+    H42 V453
+    H45 V448
+    H48
+    Z
+    "/>
+
+  </g>
+
+  <g class="c-leg-2">
+
+    <path d="
+    M27 440
+    H31 V447
+    H29 V452
+    H25 V457
+    H20 V459
+    H16 V457
+    H21 V454
+    H24 V449
+    Z
+    "/>
+
+    <path d="
+    M49 440
+    H53 V446
+    H58 V450
+    H63 V454
+    H68 V456
+    H63 V458
+    H58 V455
+    H53 V451
+    H50 V447
+    Z
+    "/>
+
+  </g>
+
+  <g class="c-leg-3">
+
+    <path d="
+    M27 440
+    H31 V446
+    H35 V450
+    H40 V453
+    H45 V456
+    H40 V458
+    H35 V455
+    H31 V451
+    H28
+    Z
+    "/>
+
+    <path d="
+    M49 440
+    H53 V447
+    H51 V453
+    H47 V457
+    H42 V459
+    H38 V457
+    H43 V454
+    H46 V449
+    Z
+    "/>
+
+  </g>
+
+  <g class="c-leg-4">
+
+    <path d="
+    M27 440
+    H31 V447
+    H29 V453
+    H25 V457
+    H20 V459
+    H16 V457
+    H21 V454
+    H24 V449
+    Z
+    "/>
+
+    <path d="
+    M49 440
+    H53 V446
+    H58 V451
+    H64 V454
+    H69 V456
+    H64 V458
+    H59 V456
+    H54 V452
+    H50 V448
+    Z
+    "/>
+
+  </g>
+
+</g>
+
+
+<!-- COWBOY FOREGROUND LEGS -->
 
 <g class="c-leg-1">
 
-<path d="
-M21 440
-H26 V446
-H23 V451
-H18 V456
-H13 V458
-H10 V456
-H15 V453
-H18 V448
-H20 Z
-"/>
+  <path d="
+  M21 440
+  H26 V446
+  H23 V451
+  H18 V456
+  H13 V458
+  H10 V456
+  H15 V453
+  H18 V448
+  H20 Z
+  "/>
 
-<path d="
-M54 440
-H59 V445
-H63 V450
-H68 V455
-H74 V457
-H68 V458
-H64 V455
-H59 V451
-H55 V447
-Z
-"/>
+  <path d="
+  M54 440
+  H59 V445
+  H63 V450
+  H68 V455
+  H74 V457
+  H68 V458
+  H64 V455
+  H59 V451
+  H55 V447
+  Z
+  "/>
 
 </g>
-
-
-<!-- COWBOY GALLOP 2 -->
 
 <g class="c-leg-2">
 
-<path d="
-M22 440
-H27 V446
-H32 V451
-H38 V454
-H43 V456
-H37 V458
-H32 V455
-H27 V451
-H23 Z
-"/>
+  <path d="
+  M22 440
+  H27 V446
+  H32 V451
+  H38 V454
+  H43 V456
+  H37 V458
+  H32 V455
+  H27 V451
+  H23 Z
+  "/>
 
-<path d="
-M54 440
-H59 V447
-H57 V452
-H53 V457
-H48 V459
-H44 V457
-H49 V454
-H52 V449
-Z
-"/>
+  <path d="
+  M54 440
+  H59 V447
+  H57 V452
+  H53 V457
+  H48 V459
+  H44 V457
+  H49 V454
+  H52 V449
+  Z
+  "/>
 
 </g>
-
-
-<!-- COWBOY GALLOP 3 -->
 
 <g class="c-leg-3">
 
-<path d="
-M22 440
-H27 V447
-H25 V453
-H21 V458
-H16 V459
-H13 V457
-H18 V454
-H20 V449
-Z
-"/>
+  <path d="
+  M22 440
+  H27 V447
+  H25 V453
+  H21 V458
+  H16 V459
+  H13 V457
+  H18 V454
+  H20 V449
+  Z
+  "/>
 
-<path d="
-M54 440
-H59 V446
-H64 V451
-H70 V454
-H76 V455
-H72 V458
-H66 V456
-H61 V452
-H56 V448
-Z
-"/>
+  <path d="
+  M54 440
+  H59 V446
+  H64 V451
+  H70 V454
+  H76 V455
+  H72 V458
+  H66 V456
+  H61 V452
+  H56 V448
+  Z
+  "/>
 
 </g>
 
-
-<!-- COWBOY GALLOP 4 -->
-
 <g class="c-leg-4">
 
-<path d="
-M22 440
-H27 V446
-H31 V450
-H36 V453
-H41 V456
-H36 V458
-H31 V455
-H26 V451
-H23 Z
-"/>
+  <path d="
+  M22 440
+  H27 V446
+  H31 V450
+  H36 V453
+  H41 V456
+  H36 V458
+  H31 V455
+  H26 V451
+  H23 Z
+  "/>
 
-<path d="
-M54 440
-H59 V447
-H57 V453
-H54 V457
-H49 V459
-H45 V457
-H50 V454
-H52 V449
-Z
-"/>
+  <path d="
+  M54 440
+  H59 V447
+  H57 V453
+  H54 V457
+  H49 V459
+  H45 V457
+  H50 V454
+  H52 V449
+  Z
+  "/>
 
 </g>
 
